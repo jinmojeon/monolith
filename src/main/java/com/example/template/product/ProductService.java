@@ -7,4 +7,5 @@ public interface ProductService {
     void increaseStock(Long productId, int quantity);
     Product getProductById(Long id);
     Product save(String data);
+    
 }
